@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.list {
+    list-style: none;
+    
+    
+}
+
+.paper {
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+.paper-link {
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 100px;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.unit {
+
+}
+
+.img-point {
+
+}
+
+.text {
+
+}
+
+.text-heading {
+
+}
