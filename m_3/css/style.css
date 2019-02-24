@@ -31,13 +31,29 @@
     text-transform: uppercase;
     font-family: sans-serif;
 }
+.paper-link:hover {
+    color: rgb(0, 255, 149);
+}
+mail {
+    font-size: 0;
+}
 
 .unit {
+font-size: 16px;
+display: inline-block;
+width: 421px;
+background-color: bisque;
+
 
 }
 
-.img-point {
+.img-point-wrp {
+    width: 421px;
+    margin-left: 55px;
+}
 
+.img-point {
+    /* margin-left: 55px; */
 }
 
 .text {
