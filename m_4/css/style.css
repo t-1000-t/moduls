@@ -2,3 +2,45 @@
     margin: 0;
     padding: 0;
 }
+
+.wrapper {
+    margin: auto;
+    padding-top: 43px;
+    background-color: brown;
+    font-size: 0;
+    width: 1170px;
+    height: auto;
+}
+.list {
+    
+}
+.list-link {
+    text-decoration: none;
+}
+.list-item {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 77.5px;
+    height: 21px;
+    font-size: 16px;
+    
+}
+.list-item-Mart {
+    background-color: aqua;
+    /* margin-top: 38px; */
+    margin-left: 30px;
+    margin-right: 500px;
+    display: inline-block;
+    height: 21px;
+    font-size: 21px;
+    color: rgb(44, 54, 52);
+    text-transform: uppercase;
+}
+.list-item-Feat {
+        font-size: 48px;
+        font-family: "Roboto";
+        color: rgba(24, 19, 19, 0.431);
+        text-transform: uppercase;
+        text-align: center;
+      
+}
