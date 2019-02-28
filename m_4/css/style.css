@@ -3,20 +3,23 @@
     padding: 0;
 }
 
+.main {
+    font-size: 0;
+}
+
 .wrapper {
     margin: auto;
+    width: 1170px;
     padding-top: 43px;
     background-color: brown;
     font-size: 0;
-    width: 1170px;
     height: auto;
 }
+
 .list {
-    
+    list-style: none;
 }
-.list-link {
-    text-decoration: none;
-}
+
 .list-item {
     background-color: blueviolet;
     display: inline-block;
@@ -25,9 +28,9 @@
     font-size: 16px;
     
 }
+
 .list-item-Mart {
     background-color: aqua;
-    /* margin-top: 38px; */
     margin-left: 30px;
     margin-right: 500px;
     display: inline-block;
@@ -43,4 +46,18 @@
         text-transform: uppercase;
         text-align: center;
       
+}
+.list-link {
+    text-decoration: none;
+}
+
+.card {
+    font-size: 14px;
+    display: inline-block;
+    margin: 15px;
+}
+.text {
+    font-size: 20px;
+    display: block;
+    width: 350px;
 }
