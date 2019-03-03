@@ -80,7 +80,8 @@
     height: 322px;
     padding: 0px 15px 30px 15px;
     cursor: pointer;
-    /* line-height: 0; */
+    /* text-align: center; */
+    
 }
 
 .card_img_main {
@@ -128,7 +129,6 @@
     text-align: left;
 }
 
-
 .text {
     display: block;
     width: 350px;
@@ -141,20 +141,31 @@
 
 .text_name_card {
     display: inline-block;
-    background-color: #423434;
-    width: 200.95px;
-    height: 40px;
+    width: 190.95px;
+    height: 20px;
     font-size: 18px;
-    /* overflow: hidden; */
+    font-family: "Myriad Pro";
+    text-align: left;
+    padding: 5px 0px 10px 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(50, 50, 50);
+   
 
+    /* overflow: hidden; */
 }
 
 .text_price {
     display: inline-block;
-    background-color: #813030;
-    width: 53.9px;
-    height: 40px;
+    background-color: #8c8c8c;
+    width: 50.9px;
+    height: 20px;
+    padding: 5px 0px 10px 3px;
     font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .text_second {
