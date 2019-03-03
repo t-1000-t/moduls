@@ -101,14 +101,23 @@
     transition-duration: 0.3s;
 }
 
+.footer_all {
+    text-align: center;
+}
+
 .card_footer {
     display: inline-block;
-    margin: 20px;
-    text-align: center;
+    width: 347px;
+    padding: 0px 15px 0px 15px;
 }
 
 .card_content_footer {
     text-align: left;
+}
+
+.card_img {
+    width: 347px;
+    height: 261px;
 }
 
 .text {
