@@ -213,6 +213,7 @@
 }
 
 .text_second {
+    display: inline-block;
     font-size: 14px;
     font-family: "OpenSans";
     color: rgb(85, 82, 82);
@@ -224,6 +225,11 @@
 }
 
 .click {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.click_text {
     margin-top: 20px;
     border-radius: 3px;
     background-color: rgb(78, 198, 171);
