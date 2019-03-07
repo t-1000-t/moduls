@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    /* display: inline-block; */
+    margin: 23px 0px 0px 30px;
+    width: 405px;
+    height: 23px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.067;
+    cursor: pointer;
+    color: #0f0101;
+}
+
+.first_L::first-letter {
+    color: rgb(26, 188, 156);
+}
+
+.list_nav {
+    float: left;
+    /* display: inline-block; */
+    width: 700px;
+    height: 23px;
+    margin: 23px 30px 0px 0px;
+}
+
+.title {
+    float: left;
+    /* display: inline-block; */
+    width: 16.5%;
+    height: 23px;
+    text-align: right;
+    margin-left: -4px;
+    list-style: none;
+}
+
+.title:first-child {
+    margin-left: 0px;
+}
+
+.title_link:hover {
+    color: #1abc9c;
+}
+
+.title:last-child {
+    margin-right: 0px;
+}
+
+.title_link {
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
+    text-align: right;
+    color: #0f0101;
+}
+
+/* header */
+
+.conteiner {
+    width: 1170px;
+    margin: auto;
+}
+
+.title_name {
+    /* display: inline-block; */
+    padding: 155px 0px 77px 0px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+}
+
+.title_name::after {
+    content: "";
+    background-color: #1abc9c;
+    height: 7px;
+    width: 164px;
+    display: block;
+    margin: 32px auto;
+}
+
+.title_name_two {
+    padding: 155px 0px 77px 0px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+}
+
+.title_name_two::after {
+    content: "";
+    background-color: #1abc9c;
+    height: 7px;
+    width: 164px;
+    display: block;
+    margin: 20px auto;
+}
+
+.box_img {
+    /* display: inline-block; */
+    float: left;
+    margin: 0px 15px 70px 15px;
+    text-align: center;
+}
+
+.card {
+    float: left;
+    /* display: inline-block; */
+    width: 254px;
+    padding: 15px 14px 15px 14px;
+}
+
+.img_point {
+    width: 255px;
+    height: 322px;
+}
+
+.card:hover .box_img_title {
+    background: #1abc9c;
+}
+
+.card:hover .box_img_price {
+    background: #7fd9c7;
+}
+
+.img_text {
+    width: 255px;
+}
+
+.box_img_title {
+    float: left;
+    /* display: inline-block; */
+    width: 201px;
+    height: 40px;
+    background-color: #323232;
+    margin-left: -4px;
+}
+
+.box_img_title:first-child {
+    margin-left: 0px;
+}
+
+.img_title {
+    width: 196, 45px;
+    height: 20px;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    text-align: left;
+    padding: 10px 73px 10px 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.box_img_price {
+    float: left;
+    /* display: inline-block; */
+    width: 54px;
+    height: 40px;
+    background-color: #8c8c8c;
+}
+
+.img_price {
+    width: 51px;
+    height: 20px;
+    padding: 10px 10px 0px 0px;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+/* Latest news */
+
+.box_img_low {
+    margin: 0px 15px 15px 15px;
+}
+
+.card_low {
+    float: left;
+    /* display: inline-block; */
+    width: 350px;
+    padding: 0px 15px 28px 15px;
+    /* margin-left: -4px; */
+}
+
+/* .card_low:first-child {
+    margin-left: 0;
+} */
+
+.text {
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: #555252;
+    line-height: 1.444;
+    left: 260.844px;
+    top: 1560.89px;
+    width: 301px;
+    height: 44px;
+}
+
+.box_text {
+    float: left;
+    /* display: inline-block; */
+    width: 350px;
+    height: 72px;
+}
+
+.box_text::after {
+    content: "";
+    float: left;
+    /* display: block; */
+    background-color: rgb(78, 198, 171);
+    width: 136px;
+    height: 3px;
+    margin: 11px 0px 29px 0px;
+}
+
+.text_second {
+    float: left;
+    /* display: inline-block; */
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+    left: 261.937px;
+    top: 1648.25px;
+    width: 335px;
+    height: 66px;
+}
+
+.click {
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: rgb(78, 198, 171);
+    width: 159px;
+    height: 51px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
