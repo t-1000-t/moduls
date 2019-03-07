@@ -105,6 +105,7 @@
     display: inline-block;
     width: 254px;
     padding: 15px 14px 15px 14px;
+    text-align: left;
    
 }
 
@@ -112,7 +113,6 @@
 .img_point {
     width: 255px;
     height: 322px;
-    text-align: left;
 }
 
 .card:hover .box_img_title {
@@ -161,7 +161,7 @@
 .img_price {
     width: 51px;
     height: 20px;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 10px 0px 10px;
     font-size: 18px;
     font-family: "Myriad Pro";
     color: rgb(255, 255, 255);
