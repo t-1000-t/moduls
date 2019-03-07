@@ -27,7 +27,7 @@
     color: #0f0101;
 }
 
-.logo::first-letter {
+.first_L::first-letter {
     color: rgb(26, 188, 156);
 }
 
