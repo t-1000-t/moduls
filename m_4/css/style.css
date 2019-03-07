@@ -98,18 +98,16 @@
 
 .box_img {
     margin: 0px 15px 0px 15px;
+    text-align: center;
 }
 
 .card {
     display: inline-block;
     width: 254px;
     padding: 15px 14px 15px 14px;
-    margin-left: -4px;
+   
 }
 
-.card:first-child {
-    margin-left: 0px;
-}
 
 .img_point {
     width: 255px;
@@ -162,7 +160,7 @@
 .img_price {
     width: 51px;
     height: 20px;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 10px 0px 0px;
     font-size: 18px;
     font-family: "Myriad Pro";
     color: rgb(255, 255, 255);
@@ -231,4 +229,6 @@
     height: 51px;
     cursor: pointer;
     border: none;
+    color: white;
 }
+
