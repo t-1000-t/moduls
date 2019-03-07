@@ -112,6 +112,7 @@
 .img_point {
     width: 255px;
     height: 322px;
+    text-align: left;
 }
 
 .card:hover .box_img_title {
