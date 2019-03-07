@@ -17,7 +17,6 @@
     display: inline-block;
     text-align: center;
     margin-left: 20px;
-    /* background-color: hsl(57, 61%, 39%); */
     background-image: linear-gradient(to bottom left, #0B486B, #F56217);
 }
 
@@ -25,4 +24,5 @@
     color: rgb(235, 205, 207);
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
+    padding: 25px;
 }
