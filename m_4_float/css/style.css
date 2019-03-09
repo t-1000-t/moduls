@@ -43,16 +43,13 @@
 .title {
     float: left;
     /* display: inline-block; */
-    width: 16.5%;
+    
     height: 23px;
     text-align: right;
-    margin-left: -4px;
+    margin: 0px 30px 0px 0px;
     list-style: none;
 }
 
-.title:first-child {
-    margin-left: 0px;
-}
 
 .title_link:hover {
     color: #1abc9c;
@@ -72,11 +69,12 @@
     line-height: 0.786;
     text-align: right;
     color: #0f0101;
+    padding: 0px 15px 0px 15px;
 }
 
 /* header */
 
-.conteiner {
+.container {
     width: 1170px;
     margin: auto;
 }
