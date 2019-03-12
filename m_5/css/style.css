@@ -189,7 +189,7 @@
 /* Cards */
 
 .cards {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px 100px 15px;
     text-align: center;
 }
 
@@ -374,4 +374,19 @@
     font-family: "Myriad Pro";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+}
+
+.foo {
+    text-align: center;
+    height: 87px;
+    background-color: #323232;
+}
+.foo_text {
+    display: inline-block;
+    margin-top: 35px;
+    color: #fff;
+}
+
+.last_word {
+    color: #1abc9c
 }
