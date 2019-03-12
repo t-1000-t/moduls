@@ -40,10 +40,8 @@
 
 .title {
     display: inline-block;
-    margin: 0px 30px 0px 10px;
     height: 23px;
-    text-align: right;
-    margin-left: -4px;
+   
 }
 
 .title:first-child {
@@ -68,41 +66,32 @@
     line-height: 0.786;
     text-align: right;
     color: #0f0101;
-    padding: 0px 15px 0px 15px;
+    margin: 0px 0px 0px 57px;
 }
 
 /* header */
 
-.container {
-    width: 1170px;
-    margin: auto;
-}
-
-/* Slider */
+/* Main */
 
 .container_fluid {
     position: relative;
     width: 1703px;
-    /* margin: auto; */
+    margin: auto;
     height: 600px;
     z-index: 1;
+    text-align: center;
 }
 
 .slider_wrp {
-
-}
-
-.slider_img {
-
-}
-
-.slider {
+    width: 1110px;
+    margin: auto;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: 10;
+   
 }
 
 .slider_btn {
@@ -113,19 +102,23 @@
     top: 226px;
     opacity: 0.651;
     border: none;
-    filter: none;
     cursor: pointer;
 }
 
 .slider_btn_right {
     margin-right: 15px;
-        right: 15px;
+    right: 0px;
 }
-
 .slider_btn_left {
     margin-left: 15px;
-    left: 15px;
+    left: 0px;
 }
+.slider_btn:hover {
+    background-color: #1abc9c;
+    opacity: 1;
+}
+
+
 
 .slider_content {
     display: block;
@@ -138,21 +131,21 @@
 }
 
 .slider_title {
-        font-size: 60px;
-        font-family: "Roboto";
-        color: rgb(0, 0, 0);
-        text-transform: uppercase;
-        line-height: 1.367;
-        text-align: left;
+    font-size: 60px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.367;
+    text-align: left;
 }
 
 .slider_subtitle {
-        font-size: 20px;
-        font-family: "Roboto";
-        color: rgb(0, 0, 0);
-        text-transform: uppercase;
-        line-height: 1.367;
-        text-align: left;
+    font-size: 20px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.367;
+    text-align: left;
 }
 
 .arrow {
@@ -174,8 +167,6 @@
     margin-left: 15px;
 }
 
-
-
 .title_name {
     padding: 105px 0px 77px 0px;
     text-align: center;
@@ -195,6 +186,8 @@
     margin: 32px auto;
 }
 
+/* Cards */
+
 .cards {
     margin: 0px 15px 0px 15px;
     text-align: center;
@@ -206,9 +199,7 @@
     padding: 15px 14px 15px 14px;
     text-align: left;
     cursor: pointer;
-   
 }
-
 
 .card_img_point {
     height: 322px;
@@ -274,27 +265,25 @@
 }
 
 .icon_btn {
-box-sizing: border-box;
-background: transparent;
-margin: 0 5px 12px;
-width: 50px;
-height: 50px;
-border: 1px solid #fff;
-cursor: pointer;
-vertical-align: top;
+    box-sizing: border-box;
+    background: transparent;
+    margin: 0 5px 12px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    vertical-align: top;
 }
 
-
-
 .icon_btn_add {
-box-sizing: border-box;
-background: transparent;
-margin: 0 0px 12px;
-width: 166px;
-height: 50px;
-border: 1px solid #fff;
-cursor: pointer;
-vertical-align: top;
+    box-sizing: border-box;
+    background: transparent;
+    margin: 0 0px 12px;
+    width: 166px;
+    height: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    vertical-align: top;
 }
 
 .icon_btn_like {
@@ -339,14 +328,12 @@ vertical-align: top;
     width: 30px;
     height: 40px;
     text-align: left;
-   padding: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
 }
 .blk_text {
     display: inline-block;
     color: #fff;
-    
 }
-
 
 .box_img_title {
     display: inline-block;
@@ -388,76 +375,3 @@ vertical-align: top;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
-
-/* Latest news */
-
-.box_img_low {
-    margin: 0px 15px 15px 15px;
-}
-
-.card_low {
-    display: inline-block;
-    width: 350px;
-    padding: 0px 15px 28px 15px;
-    margin-left: -4px;
-}
-
-.card_low:first-child {
-    margin-left: 0;
-}
-
-.text {
-    font-size: 18px;
-    font-family: "OpenSans";
-    color: #555252;
-    line-height: 1.444;
-    left: 260.844px;
-    top: 1560.89px;
-    width: 301px;
-    height: 44px;
-}
-
-.box_text {
-    display: inline-block;
-    padding-bottom: 20px;
-    width: 350px;
-    height: 72px;
-}
-
-.box_text::after {
-    content: "";
-    display: block;
-    background-color: rgb(78, 198, 171);
-    width: 136px;
-    height: 3px;
-    margin: 11px 0px 29px 0px;
-}
-
-.text_second {
-    display: inline-block;
-    font-size: 14px;
-    font-family: "OpenSans";
-    color: rgb(85, 82, 82);
-    line-height: 1.857;
-    left: 261.937px;
-    top: 1648.25px;
-    width: 335px;
-    height: 66px;
-}
-
-.click {
-    display: inline-block;
-    margin-top: 15px;
-}
-
-.click_text {
-    margin-top: 20px;
-    border-radius: 3px;
-    background-color: rgb(78, 198, 171);
-    width: 159px;
-    height: 51px;
-    cursor: pointer;
-    border: none;
-    color: white;
-}
-
