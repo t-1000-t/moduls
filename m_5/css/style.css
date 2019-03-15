@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
 }
+main {
+    background-color: #e9f0fd;
+  }
 
 .wrapper {
-    width: 1600px;
-    margin: auto;
     background-color: #ffffff;
 }
 .container {
@@ -55,19 +56,13 @@
 .title_link:hover {
     color: #1abc9c;
 }
-
-.container_fluid {
-    position: relative;
-    width: 1600px;
-    margin: auto;
-    z-index: 1;
-    text-align: center;
-    padding-bottom: 10px;
-    background-color: #e9f0fd;
-}
 .container_title {
     width: 1170px;
     margin: auto;
+}
+.slider_img {
+    width: 100%;
+    height: 602px;
 }
 .slider_wrp {
     width: 1110px;
@@ -162,16 +157,19 @@
     margin: 32px auto;
 }
 .cards {
-    margin: 0px 15px 100px 15px;
+    padding-top: 14px;
+    text-align: center;
 }
 .card {
     position: relative;
     display: inline-block;
-    width: 254px;
-    padding: 15px 14px 15px 14px;
+    width: 255px;
+    margin: 0 15px 14px;
     text-align: left;
     cursor: pointer;
     height: 322px;
+    background-color: rgb(56, 77, 134);
+
 }
 .card:hover .title_text {
     background: #1abc9c;
@@ -185,7 +183,7 @@
     opacity: 0;
     top: 26px;
     right: 25px;
-    bottom: 66px;
+    bottom: 46px;
     left: 25px;
     transition-duration: 0.3s;
     z-index: 15;
@@ -211,8 +209,7 @@
 }
 .box_pic_title {
     position: absolute;
-    display: inline-block;
-    top: 297px;
+    bottom: 0px;
     width: 255px;
     height: 40px;
 }
@@ -310,20 +307,23 @@
     text-align: left;
     padding: 10px 0px 0px 10px;
 }
-
+.container_foo {
+    width: 100%;
+    height: 90px;
+    margin-top: 100px;
+    background-color: #323232;
+}
 .foo {
     display: block;
-    width: 1600px;
-    height: 88px;
+    width: 1170px;
     margin: auto;
     text-align: center;
-    background-color: #323232;
 }
 .foo_text {
     display: inline-block;
     margin-top: 35px;
     font-size: 16px;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     color: rgb(254, 254, 254);
 }
 .last_word {
