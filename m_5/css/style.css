@@ -255,7 +255,7 @@ main {
     border: 1px solid #fff;
     cursor: pointer;
     top: 137px;
-    left: 35px;
+    left: 30px;
     vertical-align: middle;
 }
 .blk_text {
@@ -266,7 +266,7 @@ main {
 .icon_btn_like {
     position: absolute;
     top: 80px;
-    left: 30px;
+    left: 25px;
 }
 .icon_btn_like:hover {
     background-color: #1abc9c;
@@ -274,7 +274,7 @@ main {
 .icon_btn_link {
     position: absolute;
     top: 80px;
-    left: 89px;
+    left: 84px;
 }
 .icon_btn_link:hover {
     background-color: #1abc9c;
@@ -283,7 +283,7 @@ main {
 .icon_btn_clock {
     position: absolute;
     top: 80px;
-    left: 146px;
+    left: 141px;
 }
 .icon_btn_clock:hover {
     background-color: #1abc9c;
