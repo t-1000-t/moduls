@@ -5,14 +5,11 @@
 main {
     background-color: #e9f0fd;
   }
-
-.wrapper {
-    background-color: #ffffff;
-}
 .container {
     width: 1110px;
     margin: auto;
-    padding-bottom: 14px;
+    margin-bottom: 14px;
+    background-color: #ffffff;
 }
 .logo {
     display: inline-block;
@@ -68,9 +65,9 @@ main {
     width: 1110px;
     margin: auto;
     position: absolute;
-    top: 0;
+    top: 78px;
     left: 0;
-    bottom: 0;
+    bottom: 280px;
     right: 0;
     z-index: 10;
 }
@@ -165,7 +162,6 @@ main {
     display: inline-block;
     width: 255px;
     margin: 0 15px 14px;
-    text-align: left;
     cursor: pointer;
     height: 322px;
     background-color: rgb(56, 77, 134);
@@ -224,7 +220,6 @@ main {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     line-height: 2;
-    text-align: center;
 }
 .title_price {
     float: right;
@@ -237,7 +232,6 @@ main {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 2;
-    text-align: center;
 }
 .icon_btn {
     box-sizing: border-box;
@@ -255,7 +249,6 @@ main {
 
 .icon_btn_add {
     position: absolute;
-    display: inline-block;
     background: transparent;
     width: 166px;
     height: 50px;
@@ -298,14 +291,6 @@ main {
 
 .icon_btn_add:hover {
     background-color: #323232;
-}
-.blk {
-    display: inline-block;
-    color: #fff;
-    width: 30px;
-    height: 40px;
-    text-align: left;
-    padding: 10px 0px 0px 10px;
 }
 .container_foo {
     width: 100%;
