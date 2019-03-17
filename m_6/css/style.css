@@ -152,5 +152,17 @@
     /* background-color: rgb(159, 173, 107); */
 }
 .line_up {
-  margin-top: 80px;
+    margin-top: 80px;
+}
+.column_10 {
+  width: calc(var(--column)*10);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 95px;
+}
+.text_spec {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;  
 }
