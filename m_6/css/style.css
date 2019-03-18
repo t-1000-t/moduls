@@ -112,8 +112,6 @@
     text-align: center;
     flex-shrink: 0;
 }
-.icon_alarm {
-}
 .page {
     display: flex;
     flex-wrap: wrap;
