@@ -16,7 +16,7 @@
 /* header   start */
 .wrapper {
     display: flex;
-    width: 100%;
+    justify-content: space-between;;
     height: 50px;
     align-items: baseline;
     align-items: flex-end;
@@ -24,28 +24,25 @@
 }
 .logo {
     display: flex;
-    width: 710px;
-    justify-content: space-between;
-    align-items: center;
+        align-items: baseline;
 }
 .logo-img {
-    width: 86px;
-    height: 23px;
     cursor: pointer;
 }
 .nav {
     display: flex;
-    width: 490px;
     list-style: none;
     justify-content: space-between;
     cursor: pointer;
 }
 .nav_name {
-    height: 14px;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     line-height: 1.2;
+    margin-bottom: -6px;
+    margin-left: 50px;
+
 }
 .nav_name:hover {
     color: #f38181;
