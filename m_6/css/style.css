@@ -16,7 +16,7 @@
 /* header   start */
 .wrapper {
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
     height: 50px;
     align-items: baseline;
     align-items: flex-end;
@@ -24,7 +24,7 @@
 }
 .logo {
     display: flex;
-        align-items: baseline;
+    align-items: baseline;
 }
 .logo-img {
     cursor: pointer;
@@ -40,9 +40,8 @@
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     line-height: 1.2;
-    margin-bottom: -6px;
+    margin-bottom: -10px;
     margin-left: 50px;
-
 }
 .nav_name:hover {
     color: #f38181;
@@ -224,7 +223,7 @@
 
 .card_name {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: rgb(51, 51, 51);
     text-transform: uppercase;
     line-height: 1.2;
@@ -233,7 +232,7 @@
 }
 .card_prof {
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: rgb(153, 153, 153);
     font-style: italic;
     line-height: 1.6;
