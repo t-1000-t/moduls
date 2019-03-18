@@ -68,8 +68,6 @@
 .menu_link:hover::after {
     width: 100%;
 }
-.name_title {
-}
 .text_first {
     font-size: 24px;
     font-family: "Kaushan Script", cursive;
@@ -85,6 +83,7 @@
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    margin-top: 20px;
 }
 .name_title::after {
     content: "";
@@ -143,7 +142,7 @@
 }
 .text_spec {
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: rgb(153, 153, 153);
     line-height: 1.6;
 }
@@ -163,7 +162,7 @@
     background-color: #95e1d3;
 }
 .card_img:hover {
-  transform: translate(-10px,-10px);
+    transform: translate(-10px, -10px);
 }
 .card_img {
     width: 380px;
@@ -228,7 +227,7 @@
 
 .card_name {
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     color: rgb(51, 51, 51);
     text-transform: uppercase;
     line-height: 1.2;
@@ -237,7 +236,7 @@
 }
 .card_prof {
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     color: rgb(153, 153, 153);
     font-style: italic;
     line-height: 1.6;
@@ -245,65 +244,64 @@
     padding-top: 15px;
 }
 
-
 /* footer */
 
 footer {
-/* min-height: 64px; */
-display: flex;
-justify-content: space-between;
-border-top: 1px solid #e5e5e5;
-padding: 10px 0;
-box-sizing: padding-box;
-margin-top: 180px;
+    /* min-height: 64px; */
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+    box-sizing: padding-box;
+    margin-top: 180px;
 }
 
 .copyright {
-  vertical-align: middle;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  color: #333;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
 }
 
 .accent {
-  color: #f38181;
+    color: #f38181;
 }
 
 form {
-  font-size: 0;
-  vertical-align: middle;
+    font-size: 0;
+    vertical-align: middle;
 }
 
 input {
-  font-size: 16px;
-  border: none;
-  box-shadow: none;
-  vertical-align: middle;
+    font-size: 16px;
+    border: none;
+    box-shadow: none;
+    vertical-align: middle;
 }
 
 input[type="email"] {
-  width: 230px;
-  height: 40px;
-  border: 1px solid #e7e7e7;
-  box-sizing: border-box;
-  padding-left: 1rem;
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-left: 1rem;
 }
 
 input[type="submit"] {
-  width: 152px;
-  height: 40px;
-  background: var(--main);
-  border: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Montserrat", serif;
-  font-size: 14px;
-  font-weight: bold;
+    width: 152px;
+    height: 40px;
+    background: var(--main);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 input::placeholder {
-  color: #e7e7e7;
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-size: 15px;
+    color: #e7e7e7;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 15px;
 }
