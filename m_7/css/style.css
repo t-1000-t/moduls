@@ -3,25 +3,30 @@
     padding: 0;
 }
 .container {
-    width: 940px;
     margin: auto;
-    background-color: rgb(187, 181, 181);
+    width: 1400px;
+}
+
+.container_header {
+    margin: auto;
+    width: 940px;
+    background-color: rgb(206, 189, 202);
 }
 .wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+
+    background-color: rgb(144, 165, 167);
 }
 .logo {
-  padding-left: 5px;
+    padding-left: 5px;
 }
 .logo_name {
     cursor: pointer;
 }
 .menu {
     display: flex;
-    justify-content: space-between;
-
 }
 .menu_name {
     padding-left: 40px;
@@ -31,7 +36,6 @@
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 2.2;
-    
 }
 .menu_link {
     text-decoration: none;
@@ -39,13 +43,13 @@
     cursor: pointer;
 }
 .menu_link:hover {
-  color: #fed136;
+    color: #fed136;
 }
 /* main */
 .box {
-  text-align: center;
-  padding-top: 125px;
-  padding-bottom: 15px;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 15px;
 }
 .title {
     font-size: 40px;
@@ -63,14 +67,15 @@
     line-height: 1.2;
 }
 .cards {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 65px;
-  /* background-color: rgb(138, 146, 101); */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 120px;
+    /* background-color: rgb(138, 146, 101); */
 }
 .card {
-  text-align: center;
-  width: 280px;
+    text-align: center;
+    width: 280px;
 }
 .title_card {
     font-size: 18px;
@@ -84,4 +89,24 @@
     font-family: "RobotoSlab";
     color: rgb(119, 119, 119);
     line-height: 1.2;
+}
+/* footer */
+.fond_img {
+    min-height: 676px;
+    background-image: url("../img/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container_foo {
+    width: 100%;
+    height: 676px;
+}
+.title_foo {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.875;
 }
