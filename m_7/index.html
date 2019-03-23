@@ -44,7 +44,7 @@
 
                 <main>
                     <div class="box">
-                        <h4 class="title montserrat_700">Service</h4>
+                        <h2 class="title montserrat_700">Service</h2>
                         <span class="text droid_300italic"
                             >Proin iaculis purus consequat sem cure</span
                         >
@@ -112,22 +112,27 @@
                     </div>
                 </main>
             </div>
-            <footer class="container_foo">
-                <div class="fond_img">
-                    <div class="box">
-                        <h4 class="title_foo montserrat_700">contact us</h4>
-                        <span class="text droid_300italic"
-                            >Proin iaculis purus consequat sem cure</span
-                        >
+            <footer>
+                <div class="container_foo">
+                    <div class="fon">
+                        <div class="box_two">
+                            <h3 class="title_foo montserrat_700">contact us</h3>
+                            <span class="text droid_300italic"
+                                >Proin iaculis purus consequat sem cure</span
+                            >
+                        </div>
+                        <div class="fon_img"></div>
                     </div>
                     <form method="POST" action="#">
-                        <div class="cell">
+                        <div class="box_cell">
+                            <div class="cell">
                                 <input
                                     class="cell_plac montserrat_700"
                                     type="text"
                                     name="name"
                                     placeholder="   your name *"
                                     value=""
+                                    required
                                 />
                                 <input
                                     class="cell_plac montserrat_700"
@@ -140,20 +145,25 @@
                                     class="cell_plac montserrat_700"
                                     type="password"
                                     name="subject"
-                                    placeholder="   subject *"
+                                    placeholder="  subject *"
                                     value=""
                                 />
+                            </div>
+                            <div class="cell_text">
+                                <textarea
+                                    class="cell_message montserrat_700"
+                                    type="text"
+                                    name="body"
+                                    cols="33"
+                                    rows="8"
+                                    placeholder="  your message *"
+                                    required
+                                ></textarea>
+                            </div>
                         </div>
-
-                        <div class="cell_text">
-                            <input
-                                class="cell_message montserrat_700"
-                                type="text"
-                                name="body"
-                                placeholder="  your message *"
-                            />
-                        </div>
-                        <button class="btn montserrat_700">send message</button>
+                        <button class="btn montserrat_700" type="submit">
+                            send message
+                        </button>
                     </form>
                 </div>
             </footer>

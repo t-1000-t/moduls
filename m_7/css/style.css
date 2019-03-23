@@ -4,7 +4,6 @@
 }
 .container {
     margin: auto;
-    width: 1400px;
 }
 
 .container_header {
@@ -16,8 +15,6 @@
     display: flex;
     justify-content: space-between;
     padding-top: 8px;
-
-
 }
 .logo {
     padding-left: 5px;
@@ -50,6 +47,12 @@
     padding-top: 125px;
     padding-bottom: 15px;
 }
+.box_two {
+    text-align: center;
+    width: 1400px;
+    padding-top: 110px;
+    padding-bottom: 63px;
+}
 .title {
     font-size: 40px;
     color: rgb(34, 34, 34);
@@ -66,7 +69,7 @@
     justify-content: space-between;
     padding-top: 65px;
     padding-bottom: 120px;
-    /* background-color: rgb(138, 146, 101); */
+
 }
 .card {
     text-align: center;
@@ -86,17 +89,36 @@
     line-height: 1.2;
 }
 /* footer */
-.fond_img {
-    position: relative;
-    min-height: 676px;
-    background-image: url("../img/map.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+footer {
+    width: 100%;
+    background-color: #222222;
 }
 .container_foo {
-    width: 100%;
-    height: 676px;
+    position: relative;
+    width: 1400px;
+    min-height: 678px;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+}
+.fon {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fon_img {
+    position: absolute;
+    width: 614px;
+    height: 537px;
+    margin-top: 120px;
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.box_cell {
+    position: absolute;
+    top: 255px;
+    left: 210px;
 }
 .title_foo {
     font-size: 40px;
@@ -104,31 +126,31 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.875;
+    line-height: 0.8;
+    margin-bottom: 22px;
+}
+.box_cell {
+    display: flex;
+    justify-content: center;
 }
 .cell {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 240px;
-    left: 230px;
 }
 .cell_plac {
     width: 455px;
     height: 50px;
     border-radius: 5px;
-    margin: 15px 15px 15px 0;
+    margin: 15px;
     color: #bbbbbb;
     text-transform: uppercase;
     line-height: 1.2;
 }
 .cell_text {
-    position: absolute;
-    top: 255px;
-    left: 715px;
     width: 455px;
-    height: 215px;
+    height: 220px;
     border-radius: 5px;
+    margin: 15px;
     background-color: #ffffff;
 }
 .cell_message {
@@ -140,11 +162,14 @@
 }
 .btn {
     position: absolute;
-    top: 498px;
-    left: 580px;
+    top: 497px;
+    left: 577px;
     width: 240px;
     height: 65px;
     border-radius: 5px;
+    border: 0;
+    padding: 0;
+    margin-top: 25px;
     background-color: #fed136;
 }
 .btn:hover {
@@ -172,18 +197,16 @@
     font-weight: 300;
 }
 
-.Your_E_mail__ {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(187, 187, 187);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 249.921px;
-    top: 993.6px;
-    z-index: 15;
-  }
-  
-  
+input[type="email"]:focus:invalid,
+textarea[name="body"]:focus:invalid,
+input[name="name"]:focus:invalid {
+    outline-color: red;
+    transition: outline-color 5s;
+}
+
+input[type="email"]:focus:valid,
+textarea[name="body"]:focus:valid,
+input[name="name"]:focus:valid {
+    outline-color: green;
+    transition: outline-color .4s;
+}
