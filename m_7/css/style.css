@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.container_ {
+.container {
     margin: auto;
+    width: 100%;
 }
 
 .container_header {
