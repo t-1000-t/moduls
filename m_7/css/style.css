@@ -8,7 +8,7 @@
 
 .container_header {
     margin: auto;
-    width: 940px;
+    max-width: 940px;
 
 }
 .wrapper {
@@ -49,8 +49,6 @@
 }
 .box_two {
     text-align: center;
-    width: 1400px;
-    padding-top: 110px;
     padding-bottom: 63px;
 }
 .title {
@@ -94,74 +92,55 @@ footer {
     width: 100%;
     background-color: #222222;
 }
-.container_foo {
-    position: relative;
-    width: 1400px;
-    min-height: 678px;
+.container_footer {
     margin: auto;
+    max-width: 1400px;
     text-align: center;
-    z-index: 10;
+    
 }
-.fon {
-    display: flex;
-    flex-direction: row-reverse;
-}
-.fon_img {
-    position: absolute;
-    width: 614px;
-    height: 537px;
-    margin-top: 120px;
-    background-image: url("../img/map.png");
+.bg_img {
+    padding-top: 110px;
+    min-height: 658px;
     background-repeat: no-repeat;
-    z-index: 0;
+    background-position: right;
+    background-image: url(../img/map.png);
+
 }
-.box_cell {
-    position: absolute;
-    top: 255px;
-    left: 210px;
-}
-.title_foo {
-    font-size: 40px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+.title_footer {
     text-transform: uppercase;
-    line-height: 0.8;
-    margin-bottom: 22px;
+    line-height: 0.5;
+    font-size: 40px;
+    color: #ffffff;
 }
-.box_cell {
+.text_footer {
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    padding-top: 25px;
+}
+.box_cel_tex {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .cell {
     display: flex;
     flex-direction: column;
 }
-.cell_plac {
-    width: 455px;
-    height: 50px;
+.textar {
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
     border-radius: 5px;
-    margin: 15px;
-    color: #bbbbbb;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-.cell_text {
-    width: 455px;
-    height: 220px;
-    border-radius: 5px;
-    margin: 15px;
-    background-color: #ffffff;
-}
-.cell_message {
-    margin: 20px;
-    border: none;
-    color: #bbbbbb;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+
+
 .btn {
-    position: absolute;
     top: 497px;
     left: 577px;
     width: 240px;
