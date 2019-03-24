@@ -9,7 +9,6 @@
 .container_header {
     margin: auto;
     max-width: 940px;
-
 }
 .wrapper {
     display: flex;
@@ -67,7 +66,6 @@
     justify-content: space-between;
     padding-top: 65px;
     padding-bottom: 120px;
-
 }
 .card {
     text-align: center;
@@ -96,7 +94,6 @@ footer {
     margin: auto;
     max-width: 1400px;
     text-align: center;
-    
 }
 .bg_img {
     padding-top: 110px;
@@ -104,7 +101,6 @@ footer {
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(../img/map.png);
-
 }
 .title_footer {
     text-transform: uppercase;
@@ -127,18 +123,27 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.textar {
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
+.cell_lab {
+    width: 455px;
+    height: 52px;
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
+    line-height: 1.2;
     border-radius: 5px;
+    margin: 15px;
+}
+.cell_ter {
+    width: 455px;
+    height: 215px;
+    margin: 15px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: rgb(187, 187, 187);
     background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-  }
-
-
+}
 
 .btn {
     top: 497px;
@@ -149,12 +154,16 @@ footer {
     border: 0;
     padding: 0;
     margin-top: 25px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #ffffff;
     background-color: #fed136;
 }
 .btn:hover {
     background-color: #ffae00;
 }
 
+/* style_text */
 .montserrat_regular {
     font-family: "Montserrat";
     font-style: normal;
@@ -177,15 +186,26 @@ footer {
 }
 
 input[type="email"]:focus:invalid,
-textarea[name="body"]:focus:invalid,
-input[name="name"]:focus:invalid {
-    outline-color: red;
-    transition: outline-color 5s;
+textarea[name="textarea"]:focus:invalid,
+input[name="name"]:focus:invalid
+input[name="password"]:focus:invalid {
+  outline-color: red;
+  transition: outline-color 5s;
 }
 
 input[type="email"]:focus:valid,
-textarea[name="body"]:focus:valid,
-input[name="name"]:focus:valid {
-    outline-color: green;
-    transition: outline-color .4s;
+textarea[name="textarea"]:focus:valid,
+input[name="name"]:focus:valid,
+input[name="password"]:focus:valid {
+  outline-color: green;
+  transition: outline-color .4s;
 }
+
+.cell_lab,
+.cell_ter {
+  box-sizing: border-box;
+  display: block;
+  outline: 4px solid transparent;
+  transition: outline-color 0.1s;
+}
+  
