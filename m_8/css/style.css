@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+.top_img {
+    background-image: url(../img/photo_friends.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.wrapper {
+    margin: auto;
+    text-align: center;
+    width: 940px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 90px;
+}
+.logo {
+    height: 36px;
+}
+.logo_text {
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #fff;
+}
+.box_btn {
+    display: flex;
+}
+.top_btn {
+    padding: 7px;
+    width: 90px;
+    height: 36px;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+.top_btn:hover {
+    padding: 6px;
+    border: 2px solid #fff;
+}
+.tit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tit_name {
+  font-size: 52px;
+  color: #fff;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tit_text {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+.card {
+    position: relative;
+    width: 220px;
+}
+.img {
+    width: 220px;
+    height: 122px;
+}
+.img_person {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+}
+.icon {
+    position: absolute;
+    top: 82px;
+    left: 131px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 6px;
+    border: 4.5px solid rgb(255, 255, 255);
+}
+.icon_status {
+}
+.bg_tv {
+    background-color: #ff4e50;
+}
+.bg_coffe {
+    background-color: #1cd7ad;
+}
+.bg_chimic {
+    background-color: #ffa507;
+}
+.bg_telegram {
+    background-color: #4e73db;
+}
+
+/* style_text */
+.montserrat_regular {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.montserrat_700 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.roboto_300 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
