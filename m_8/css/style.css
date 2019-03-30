@@ -103,7 +103,7 @@
 .card {
     position: relative;
     width: 220px;
-    height: 260px;
+    height: 230px;
 }
 .img {
     width: 220px;
@@ -145,7 +145,7 @@
     height: 40px;
     border-radius: 20px;
     line-height: 1.2;
-    margin-top: 34px;
+    margin-top: 25px;
     margin-bottom: 72px;
     padding: 10px 9px 9px 9px;
     cursor: pointer;
@@ -175,10 +175,3 @@
     font-style: normal;
     font-weight: 300;
 }
-
-.See_other_partners {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(255, 78, 80);
-  font-weight: bold;
- 
