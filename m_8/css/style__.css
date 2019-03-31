@@ -12,7 +12,7 @@
     width: 100%;
 }
 .top_img {
-    background-image: url(../img/photo_friends.png);
+    background-image: url(../img/photo_friends_tablet.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
@@ -20,17 +20,26 @@
 .wrapper {
     margin: auto;
     text-align: center;
-    width: 940px;
+    width: 758px;
 }
 .content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 40px;
     margin-bottom: 90px;
 }
+.content_card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+}
 .logo {
     height: 36px;
+    margin-left: 40px;
 }
 .logo_text {
     text-transform: uppercase;
@@ -40,6 +49,7 @@
 }
 .box_btn {
     display: flex;
+    margin-right: 40px;
 }
 .top_btn {
     padding: 7px;
@@ -104,6 +114,7 @@
     position: relative;
     width: 220px;
     height: 230px;
+    margin: 30px;
 }
 .img {
     width: 220px;
@@ -125,8 +136,6 @@
     padding: 6px;
     border: 4.5px solid rgb(255, 255, 255);
 }
-.icon_status {
-}
 .bg_tv {
     background-color: #ff4e50;
 }
@@ -145,8 +154,7 @@
     height: 40px;
     border-radius: 20px;
     line-height: 1.2;
-    margin-top: 25px;
-    margin-bottom: 72px;
+    margin-bottom: 40px;
     padding: 10px 9px 9px 9px;
     cursor: pointer;
     border: none;
