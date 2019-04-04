@@ -1,0 +1,59 @@
+/* *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.img_top {
+    background-image: url("../img/photo_friends_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 540px;
+}
+
+.box_btn_find {
+    border-radius: 20px;
+    background-color: #ff4e50;
+}
+
+.box_btn_find:hover {
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+/* 
+.logo_text {
+    background-color: rgb(102, 161, 107);
+}
+.logo {
+    background-color: rgb(109, 192, 151);
+}
+.top_btn {
+    background-color: rgb(202, 204, 103);
+}
+.box_btn {
+    background-color: rgb(167, 211, 138);
+}
+.container {
+    background-color: rgb(235, 149, 149); */
+}
+
+@media (min-width: 768px) {
+    .img_top {
+        background-image: url("../img/photo_friends_tablet.png");
+        background-repeat: no-repeat;
+    background-size: cover;
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 960px) {
+    .img_top {
+        background-image: url("../img/photo_friends.png");
+        background-repeat: no-repeat;
+    background-size: cover;
+        min-height: 700px;
+    }
+}
