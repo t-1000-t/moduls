@@ -41,13 +41,7 @@
     font-size: 20px;
     color: #fff;
 }
-.box_btn {
-    display: inline-block;
-    width: 280px;
-    align-items: center;
-    margin: 20px;
-    margin-bottom: 90px;
-}
+
 .top_btn {
     display: inline-block;
     padding: 7px;
@@ -319,7 +313,7 @@
     .card {
         position: relative;
         width: 220px;
-        height: 230px;
+        height: auto;
     }
     .img {
         width: 220px;
@@ -505,7 +499,9 @@
         line-height: 1.2;
         margin-top: 72px;
     }
-
+.r {
+    background-color: rgb(0, 0, 0);
+}
     /* cards */
     .card {
         position: relative;
