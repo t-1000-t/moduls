@@ -20,10 +20,7 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-.menu__wrp--nav {
-    height: 50px;
-    margin-bottom: 128px;
-}
+
 .logo__wrp {
     display: flex;
     align-items: baseline;
@@ -35,39 +32,13 @@
     display: flex;
     justify-content: space-between;
 }
-.nav__menu--list {
-    cursor: pointer;
-    list-style: none;
-}
+
 .nav__name {
     font-size: 14px;
     line-height: 1.2;
 }
-.nav__name--font {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    margin-bottom: -10px;
-    margin-left: 50px;
-}
 .menu__link {
     text-decoration: none;
-}
-.menu__link--color {
-    color: var(--gccent);
-}
-.menu__link--color::after {
-    content: "";
-    display: block;
-    height: 6px;
-    width: 0;
-    border-bottom: 3px solid var(--accent);
-    transition: all 0.2s linear;
-}
-.menu__link--color:hover {
-    color: var(--accent);
-}
-.menu__link--color:hover::after {
-    width: 100%;
 }
 .name__title {
     text-align: center;
@@ -84,77 +55,47 @@
     font-size: 24px;
     line-height: 1.2;
 }
-.text__first--item {
-    font-family: "Kaushan Script", cursive;
-    color: rgb(51, 51, 51);
-}
+
 .text__second {
     font-size: 30px;
     line-height: 1.2;
 }
-.text__second--item {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
+
 .list__service {
     display: flex;
     justify-content: space-between;
 }
-.list__service--position {
-    flex-wrap: wrap;
-    padding: 0 calc(var(--gap) / 2);
-}
+
 /* section */
 .name__service {
     display: flex;
 }
-.name__service--card {
-    padding: 20px;
-}
+
 .column__four {
     width: calc(var(--col) * 4);
 }
 .icon__wrp {
     width: var(--col);
 }
-.icon__wrp--view {
-    text-align: center;
-    flex-shrink: 0;
-}
+
 .page__wrp {
     width: calc(var(--column) * 3);
 }
-.page__wrp--position {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .page__name {
     font-size: 14px;
     line-height: 1.2;
 }
-.page__name--font {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
+
 .page__text {
     font-size: 15px;
     line-height: 1.6;
 }
-.page__text--font {
-    font-family: "Roboto", sans-serif;
-    color: rgb(153, 153, 153);
-}
+
 .line__up {
     width: 100%;
 }
-.line__up--position {
-    margin-top: 80px;
-}
+
 .nametwo__title {
     text-align: center;
 }
@@ -170,57 +111,29 @@
     font-size: 24px;
     line-height: 1.2;
 }
-.text__firtwo--item {
-    font-family: "Kaushan Script", cursive;
-    color: rgb(51, 51, 51);
-}
+
 .text__sectwo {
     font-size: 30px;
     line-height: 1.2;
 }
-.text__sectwo--item {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
+
 .column_ten {
     width: calc(var(--column) * 10);
 }
-.column_ten--text {
-    margin: auto;
-    text-align: center;
-    padding-bottom: 95px;
-}
+
 .text_spec {
     font-size: 15px;
     line-height: 1.6;
 }
-.text_spec--font {
-    font-family: "Roboto", sans-serif;
-    color: rgb(153, 153, 153);
-}
+
 .cards {
     display: flex;
- 
 }
-.cards--wrp {
-    width: 100%;
-    height: 470px;
-    justify-content: space-between;
-}
+
 .card {
     display: flex;
 }
-.card--view {
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    background-color: #95e1d3;
-    width: 380px;
-    height: 470px;
-}
+
 .card__img {
     width: 380px;
     height: 470px;
@@ -231,29 +144,7 @@
 .card__modal {
     position: absolute;
 }
-.card__modal--psition {
-    background-image: -moz-linear-gradient(
-        90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%
-    );
-    background-image: -ms-linear-gradient(
-        90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%
-    );
-    opacity: 0;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 10;
-}
+
 .card__img:hover .card__modal--psition {
     opacity: 0.5;
 }
@@ -274,12 +165,7 @@
     width: 55px;
     height: 55px;
 }
-.icon__btn--style {
-    cursor: pointer;
-    background-color: #fce38a;
-    border: none;
-    opacity: 0;
-}
+
 .card:hover .icon__btn {
     opacity: 1;
 }
@@ -293,23 +179,10 @@
     font-size: 14px;
     line-height: 1.2;
 }
-.card__name--font {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
-}
+
 .card__prof {
     font-size: 15px;
     line-height: 1.6;
-}
-.card__prof--font {
-    font-family: "Roboto", sans-serif;
-    color: rgb(153, 153, 153);
-    font-style: italic;
-    text-align: center;
-    padding-top: 15px;
 }
 
 /* footer */
@@ -317,62 +190,15 @@
 footer {
     display: flex;
 }
-.footer--low {
-    justify-content: space-between;
-    border-top: 1px solid #e5e5e5;
-    padding: 10px 0;
-    box-sizing: padding-box;
-    margin-top: 180px;
-}
+
 .copyright {
     font-size: 14px;
 }
-.copyright--text {
-    vertical-align: middle;
-    font-family: "Montserrat", sans-serif;
-    color: #333;
-}
-.Laaqiq--color {
-    color: var(--accent);
-}
+
 form {
     font-size: 0;
 }
-.form--position {
-    vertical-align: middle;
-}
+
 input {
     font-size: 16px;
-}
-.input--position {
-    border: none;
-    box-shadow: none;
-    vertical-align: middle;
-}
-/* input */
-.input--posemail[type="email"] {
-    width: 230px;
-    height: 40px;
-    border: 1px solid #e7e7e7;
-    box-sizing: border-box;
-    padding-left: 1rem;
-}
-
-.input--possubmit[type="submit"] {
-    width: 152px;
-    height: 40px;
-    background: #95e1d3;
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Montserrat", serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.input--posplac::placeholder {
-    color: #e7e7e7;
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-size: 15px;
 }
