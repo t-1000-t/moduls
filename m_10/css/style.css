@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 :root {
     --accent: #f38181;
@@ -9,12 +9,11 @@
     --gap: 20px;
     --column: calc(var(--col) + var(--gap));
 }
-
 .container {
     width: 1200px;
     margin: auto;
 }
-/* header   start */
+/* header   start */ 
 .menu__wrp {
     display: flex;
     justify-content: space-between;
@@ -135,11 +134,13 @@
 }
 
 .card__img {
-    width: 380px;
-    height: 470px;
 }
+
 .card_img:hover {
     transform: translate(-10px, -10px);
+}
+.card_picture {
+    width: 100%;
 }
 .card__modal {
     position: absolute;

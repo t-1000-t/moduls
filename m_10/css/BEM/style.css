@@ -2,7 +2,7 @@
     height: 50px;
     margin-bottom: 128px;
 }
-.nav__menu--list {
+.nav__menu--list { 
     cursor: pointer;
     list-style: none;
 }
@@ -129,6 +129,9 @@
     background-color: #fce38a;
     border: none;
     opacity: 0;
+}
+.icon--view {
+    fill: #777;
 }
 .card__name--font {
     font-family: "Montserrat", sans-serif;
