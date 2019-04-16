@@ -132,22 +132,16 @@
 .card {
     display: flex;
 }
-
-.card__img {
+.card_img {
 }
-
-.card_img:hover {
+.card__img:hover {
     transform: translate(-10px, -10px);
 }
-.card_picture {
-    width: 100%;
+.card__img:hover .card__modal--psition {
+    opacity: 0.5;
 }
 .card__modal {
     position: absolute;
-}
-
-.card__img:hover .card__modal--psition {
-    opacity: 0.5;
 }
 .cardIcon__wrp {
     display: flex;
@@ -166,7 +160,6 @@
     width: 55px;
     height: 55px;
 }
-
 .card:hover .icon__btn {
     opacity: 1;
 }
@@ -174,7 +167,13 @@
     cursor: pointer;
 }
 .icon__btn:hover {
-    background-color: #95e1d3;
+    background-color: #f38181;
+}
+button:hover #facebook,
+button:hover #twitter,
+button:hover #instagram,
+button:hover #pinterest {
+    fill: #fff;
 }
 .card__name {
     font-size: 14px;

@@ -123,15 +123,14 @@
     right: 0px;
     bottom: 0px;
     z-index: 10;
+    width: 100%;
+    height: 470px;
 }
 .icon__btn--style {
     cursor: pointer;
     background-color: #fce38a;
     border: none;
     opacity: 0;
-}
-.icon--view {
-    fill: #777;
 }
 .card__name--font {
     font-family: "Montserrat", sans-serif;
