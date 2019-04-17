@@ -1,6 +1,12 @@
+.container-img {
+    background-image: url(/m_10/img/igle.png);
+    background-repeat: no-repeat;
+}
 .menu__wrp--nav {
+    width: 1200px;
     height: 50px;
     margin-bottom: 128px;
+    margin: auto;
 }
 .nav__menu--list {
     cursor: pointer;
@@ -30,6 +36,20 @@
 }
 .menu__link--color:hover::after {
     width: 100%;
+}
+.text__ground--item {
+    margin-top: 170px;
+    font-family: "Kaushan Script", cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.text__big--item {
+    margin-top: 60px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
 }
 .text__first--item {
     font-family: "Kaushan Script", cursive;
@@ -231,3 +251,6 @@
     font-style: italic;
     font-size: 15px;
 }
+    
+    
+  
