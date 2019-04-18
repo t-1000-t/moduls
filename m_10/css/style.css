@@ -5,6 +5,7 @@
 :root {
     --accent: #f38181;
     --gccent: #95e1d3;
+    --yellow: rgb(252, 227, 138);
     --col: 80px;
     --gap: 20px;
     --column: calc(var(--col) + var(--gap));
@@ -65,6 +66,9 @@
 .text__big {
     font-size: 150px;
     line-height: 0.933;
+}
+.btn_more {
+    display: block;
 }
 .text__first {
     font-size: 24px;
@@ -156,8 +160,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-.card_img {
 }
 .card__img:hover {
     -webkit-transform: translate(-10px, -10px);
