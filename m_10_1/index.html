@@ -9,6 +9,10 @@
             rel="stylesheet"
         />
         <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            rel="stylesheet"
+        />
+        <link
             href="https://fonts.googleapis.com/css?family=Kaushan+Script"
             rel="stylesheet"
         />
@@ -19,10 +23,11 @@
         <link rel="stylesheet" href="./css/normalize.css" />
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/BEM/style.css" />
-        <title>HW 10</title>
+        <title>HW 10_1 autoprefixer</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container container--img">
+            <div class="container--imgfon"></div>
             <header>
                 <div class="menu__wrp menu__wrp--nav">
                     <div class="logo__wrp">
@@ -61,498 +66,606 @@
                     </nav>
                 </div>
             </header>
+            <div class="container__low">
+                <main>
+                    <div class="name__title">
+                        <h3 class="text__ground text__ground--item ">
+                            Creative Template
+                        </h3>
+                        <h2 class="text__big text__big--item">
+                            Welcome <br />
+                            to MoGo
+                        </h2>
 
-            <main>
-                <div class="name__title">
-                    <h5 class="text__first text__first--item">We work with</h5>
-                    <h4 class="text__second text__second--item">
-                        Amazing service
-                    </h4>
-                </div>
-                <div class="list__service list__service--position">
-                    <!-- name1 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/alarm.png" alt="alarm" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="page__name page__name--font">
-                                Photography
-                            </h4>
-                            <p class="page__text page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- name2 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/line-graph.png" alt="line-graph" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="name_page page__name--font">
-                                Web Design
-                            </h4>
-                            <p class="text_page page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- name3 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/computer.png" alt="computer" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="name_page page__name--font">
-                                Creativity
-                            </h4>
-                            <p class="text_page page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- name4 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/book.png" alt="book" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="name_page page__name--font">Seo</h4>
-                            <p class="text_page page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- name5 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/home.png" alt="home" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="name_page page__name--font">CSS/HTML</h4>
-                            <p class="text_page page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- name6 -->
-                    <div class="name__service name__service--card column__four">
-                        <div class="icon__wrp icon__wrp--view">
-                            <img src="./img/image.png" alt="image" />
-                        </div>
-                        <div class="page__wrp">
-                            <h4 class="name_page page__name--font">
-                                Photography
-                            </h4>
-                            <p class="text_page page__text--font">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="line__up line__up--position">
-                    <div class="nametwo__title">
-                        <h5 class="text__firtwo text__firtwo--item">
-                            Who we are
+                        <button class="btn_more btn_more--click">
+                            Learn more
+                        </button>
+
+                        <h5 class="text__first text__first--item">
+                            We work with
                         </h5>
-                        <h4 class="text__sectwo text__sectwo--item">
-                            Meet our team
+                        <h4 class="text__second text__second--item">
+                            Amazing service
                         </h4>
                     </div>
-                    <div class="column_ten column_ten--text">
-                        <span class="text_spec text_spec--font">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quasi, voluptas, consectetur cumque commodi
-                            cum error, beatae veritatis reiciendis rem excepturi
-                            dicta quas voluptates laudantium recusandae officia
-                            saepe atque provident! Praesentium?
-                        </span>
-                    </div>
-
-                    <div class="cards cards--wrp">
-                        <!-- card1 -->
-                        <div class="card card--view">
-                            <div class="card__img">
+                    <div class="list__service list__service--position">
+                        <!-- name1 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
                                 <img
-                                    srcset="
-                                        img/img-1.jpg           200w,
-                                        img_retina/img-1@2x.jpg 380w
+                                        srcset="
+                                        img/icon/alarm.png 16w,
+                                        img_retina/alarm@2x.png 32w
                                     "
-                                    sizes="200px"
-                                    src="img_retina/img-1.jpg"
-                                    alt="picture"
-                                    height="470px"
+                                    sizes="16px"
+                                    src="img/icon/alarm.png"
+                                    alt="alarm"
+                                    height="32"
                                 />
-                                <div
-                                    class="card__modal card__modal--psition"
-                                ></div>
-
-                                <div
-                                    class="cardIcon__wrp cardIcon__wrp--position"
-                                >
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="facebook"
-                                                    fill="#f38181"
-                                                    d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
-	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="twitter"
-                                                    fill="#f38181"
-                                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="pinterest"
-                                                    fill="#f38181"
-                                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="instagram"
-                                                    fill="#f38181"
-                                                    d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                </div>
                             </div>
-                            <span class="card__name card__name--font"
-                                >Matthew Dix</span
-                            >
-                            <span class="card__prof card__prof--font"
-                                >Graphic Design</span
-                            >
+                            <div class="page__wrp">
+                                <h4 class="page__name page__name--font">
+                                    Photography
+                                </h4>
+                                <p class="page__text page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
                         </div>
-
-                        <!-- card2 -->
-                        <div class="card card--view">
-                            <div class="card__img">
+                        <!-- name2 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
                                 <img
-                                    srcset="
-                                        img/img-2.jpg           200w,
-                                        img_retina/img-2@2x.jpg 380w
-                                    "
-                                    sizes="200px"
-                                    src="img_retina/img-1.jpg"
-                                    alt="picture"
-                                    height="470px"
-                                />
-                                <div
-                                    class="card__modal card__modal--psition"
-                                ></div>
-
-                                <div
-                                    class="cardIcon__wrp cardIcon__wrp--position"
-                                >
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 30 30"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="facebook"
-                                                    fill="#f38181"
-                                                    d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
-	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="twitter"
-                                                    fill="#f38181"
-                                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="pinterest"
-                                                    fill="#f38181"
-                                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="instagram"
-                                                    fill="#f38181"
-                                                    d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                </div>
+                                srcset="
+                                img/icon/design.png 16w,
+                                img_retina/design@2x.png 32w
+                            "
+                            sizes="16px"
+                            src="./img/icon/design.png "
+                            alt="design"
+                            height="32"
+                        />
                             </div>
-                            <span class="card__name card__name--font"
-                                >Christopher Campbell</span
-                            >
-                            <span class="card__prof card__prof--font"
-                                >Branding/Ux Design</span
-                            >
+                            <div class="page__wrp">
+                                <h4 class="name_page page__name--font">
+                                    Web Design
+                                </h4>
+                                <p class="text_page page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
                         </div>
-                        <!-- card3 -->
-                        <div class="card card--view">
-                            <div class="card__img">
+                        <!-- name3 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
                                 <img
-                                    srcset="
-                                        img/img-3.jpg           200w,
-                                        img_retina/img-3@2x.jpg 380w
+                                        srcset="
+                                        img/icon/creativ.png 16w,
+                                        img_retina/creativ@2x.png 32w
                                     "
-                                    sizes="200px"
-                                    src="img_retina/img-1.jpg"
-                                    alt="picture"
-                                    height="470px"
+                                    sizes="16px"
+                                    src="./img/icon/creativ.png"
+                                    alt="creativ"
+                                    height="32"
                                 />
-                                <div
-                                    class="card__modal card__modal--psition"
-                                ></div>
-                                <div
-                                    class="cardIcon__wrp cardIcon__wrp--position"
-                                >
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 30 30"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="facebook"
-                                                    fill="#f38181"
-                                                    d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
-	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="twitter"
-                                                    fill="#f38181"
-                                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="pinterest"
-                                                    fill="#f38181"
-                                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                    <button class="icon__btn icon__btn--style">
-                                        <a href="#" class="icon">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="24px"
-                                                height="24px"
-                                                viewBox="0 0 24 24"
-                                                enable-background="new 0 0 24 24"
-                                                xml:space="preserve"
-                                            >
-                                                <path
-                                                    id="instagram"
-                                                    fill="#f38181"
-                                                    d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
-                                                />
-                                            </svg>
-                                        </a>
-                                    </button>
-                                </div>
                             </div>
-                            <span class="card__name card__name--font"
-                                >Michael Fertig</span
-                            >
-                            <span class="card__prof card__prof--font"
-                                >Developer</span
-                            >
+                            <div class="page__wrp">
+                                <h4 class="name_page page__name--font">
+                                    Creativity
+                                </h4>
+                                <p class="text_page page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- name4 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
+                                <img
+                                srcset="
+                                img/icon/seo.png 16w,
+                                img_retina/seo@2x.png 32w
+                            "
+                            sizes="16px"
+                            src="./img/icon/seo.png"
+                            alt="seo"
+                            height="32"
+                        />
+                            </div>
+                            <div class="page__wrp">
+                                <h4 class="name_page page__name--font">Seo</h4>
+                                <p class="text_page page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- name5 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
+                                <img
+                                        srcset="
+                                        img/icon/home.png 16w,
+                                        img_retina/home@2x.png 32w
+                                    "
+                                    sizes="16px"
+                                    src="./img/icon/home.png"
+                                    alt="home"
+                                    height="32"
+                                />
+                            </div>
+                            <div class="page__wrp">
+                                <h4 class="name_page page__name--font">
+                                    CSS/HTML
+                                </h4>
+                                <p class="text_page page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- name6 -->
+                        <div
+                            class="name__service name__service--card column__four"
+                        >
+                            <div class="icon__wrp icon__wrp--view">
+                                <img
+                                        srcset="
+                                        img/icon/digital.png 16w,
+                                        img_retina/digital@2x.png 32w
+                                    "
+                                    sizes="16px"
+                                    src="./img/icon/digital.png"
+                                    alt="digital"
+                                    height="32"
+                                />
+                            </div>
+                            <div class="page__wrp">
+                                <h4 class="name_page page__name--font">
+                                    Photography
+                                </h4>
+                                <p class="text_page page__text--font">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </main>
-            <footer class="footer--low">
-                <p class="copyright copyright--text">
-                    2016 MoGo free PSD template by
-                    <span class="Laaqiq--color">Laaqiq</span>
-                </p>
-                <form class="form--position input--posplac">
-                    <input
-                        class="input--posemail"
-                        type="email"
-                        name="email"
-                        placeholder="Your Email..."
-                    />
-                    <input
-                        class="input--possubmit"
-                        type="submit"
-                        value="subscribe"
-                    />
-                </form>
-            </footer>
+                    <div class="line__up line__up--position">
+                        <div class="nametwo__title">
+                            <h5 class="text__firtwo text__firtwo--item">
+                                Who we are
+                            </h5>
+                            <h4 class="text__sectwo text__sectwo--item">
+                                Meet our team
+                            </h4>
+                        </div>
+                        <div class="column_ten column_ten--text">
+                            <span class="text_spec text_spec--font">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quasi, voluptas, consectetur
+                                cumque commodi cum error, beatae veritatis
+                                reiciendis rem excepturi dicta quas voluptates
+                                laudantium recusandae officia saepe atque
+                                provident! Praesentium?
+                            </span>
+                        </div>
+
+                        <div class="cards cards--wrp">
+                            <!-- card1 -->
+                            <div class="card card--view">
+                                <div class="card__img">
+                                    <img
+                                        srcset="
+                                            img/img-1.jpg           200w,
+                                            img_retina/img-1@2x.jpg 380w
+                                        "
+                                        sizes="200px"
+                                        src="img/img-1.jpg"
+                                        alt="picture"
+                                        height="470"
+                                    />
+                                    <div
+                                        class="card__modal card__modal--psition"
+                                    ></div>
+
+                                    <div
+                                        class="cardIcon__wrp cardIcon__wrp--position"
+                                    >
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="facebook"
+                                                        fill="#f38181"
+                                                        d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
+	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="twitter"
+                                                        fill="#f38181"
+                                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="pinterest"
+                                                        fill="#f38181"
+                                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="instagram"
+                                                        fill="#f38181"
+                                                        d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <span class="card__name card__name--font"
+                                    >Matthew Dix</span
+                                >
+                                <span class="card__prof card__prof--font"
+                                    >Graphic Design</span
+                                >
+                            </div>
+
+                            <!-- card2 -->
+                            <div class="card card--view">
+                                <div class="card__img">
+                                    <img
+                                        srcset="
+                                            img/img-2.jpg           200w,
+                                            img_retina/img-2@2x.jpg 380w
+                                        "
+                                        sizes="200px"
+                                        src="img/img-2.jpg"
+                                        alt="picture"
+                                        height="470"
+                                    />
+                                    <div
+                                        class="card__modal card__modal--psition"
+                                    ></div>
+
+                                    <div
+                                        class="cardIcon__wrp cardIcon__wrp--position"
+                                    >
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 30 30"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="facebook"
+                                                        fill="#f38181"
+                                                        d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
+	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="twitter"
+                                                        fill="#f38181"
+                                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="pinterest"
+                                                        fill="#f38181"
+                                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="instagram"
+                                                        fill="#f38181"
+                                                        d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <span class="card__name card__name--font"
+                                    >Christopher Campbell</span
+                                >
+                                <span class="card__prof card__prof--font"
+                                    >Branding/Ux Design</span
+                                >
+                            </div>
+                            <!-- card3 -->
+                            <div class="card card--view">
+                                <div class="card__img">
+                                    <img
+                                        srcset="
+                                            img/img-3.jpg           200w,
+                                            img_retina/img-3@2x.jpg 380w
+                                        "
+                                        sizes="200px"
+                                        src="img/img-3.jpg"
+                                        alt="picture"
+                                        height="470"
+                                    />
+                                    <div
+                                        class="card__modal card__modal--psition"
+                                    ></div>
+                                    <div
+                                        class="cardIcon__wrp cardIcon__wrp--position"
+                                    >
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 30 30"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="facebook"
+                                                        fill="#f38181"
+                                                        d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
+	c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="twitter"
+                                                        fill="#f38181"
+                                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="pinterest"
+                                                        fill="#f38181"
+                                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825 0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498 1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976 0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286 4.841 0 1.174.625 2.634 1.624 3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825 0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341 3.255 0 2.164-1.093 3.663-2.515 3.663-.786 0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664 0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943 0 .709.239 1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098 1.662-.028 2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="icon__btn icon__btn--style"
+                                        >
+                                            <a href="#" class="icon">
+                                                <svg
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="24px"
+                                                    height="24px"
+                                                    viewBox="0 0 24 24"
+                                                    enable-background="new 0 0 24 24"
+                                                    xml:space="preserve"
+                                                >
+                                                    <path
+                                                        id="instagram"
+                                                        fill="#f38181"
+                                                        d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <span class="card__name card__name--font"
+                                    >Michael Fertig</span
+                                >
+                                <span class="card__prof card__prof--font"
+                                    >Developer</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="footer--low">
+                    <p class="copyright copyright--text">
+                        2016 MoGo free PSD template by
+                        <span class="Laaqiq--color">Laaqiq</span>
+                    </p>
+                    <form class="form--position input--posplac">
+                        <input
+                            class="input--posemail"
+                            type="email"
+                            name="email"
+                            placeholder="Your Email..."
+                        />
+                        <input
+                            class="input--possubmit"
+                            type="submit"
+                            value="subscribe"
+                        />
+                    </form>
+                </footer>
+            </div>
         </div>
     </body>
 </html>

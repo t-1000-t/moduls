@@ -1,34 +1,53 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 :root {
     --accent: #f38181;
     --gccent: #95e1d3;
+    --yellow: rgb(252, 227, 138);
     --col: 80px;
     --gap: 20px;
     --column: calc(var(--col) + var(--gap));
 }
 .container {
+    width: 1920px;
+    margin: auto;
+}
+.container__low {
     width: 1200px;
     margin: auto;
 }
-/* header   start */ 
+/* header   start */
 .menu__wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .logo__wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
 }
 .logo_link {
     cursor: pointer;
 }
 .nav__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -50,23 +69,39 @@
     display: block;
     margin: 42px auto;
 }
+.text__ground {
+    font-size: 72px;
+    line-height: 1.2;
+}
+.text__big {
+    font-size: 150px;
+    line-height: 0.933;
+}
+.btn_more {
+    display: block;
+}
 .text__first {
     font-size: 24px;
     line-height: 1.2;
 }
-
 .text__second {
     font-size: 30px;
     line-height: 1.2;
 }
 
 .list__service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 /* section */
 .name__service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -126,15 +161,19 @@
 }
 
 .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
-.card_img {
-}
 .card__img:hover {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
 }
 .card__img:hover .card__modal--psition {
@@ -144,6 +183,8 @@
     position: absolute;
 }
 .cardIcon__wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .cardIcon__wrp--position {
@@ -188,6 +229,8 @@ button:hover #pinterest {
 /* footer */
 
 footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
