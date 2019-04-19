@@ -60,7 +60,7 @@
     transition: all 0.2s linear;
 }
 .menu__link--color:hover {
-    color: var(--accent);
+    color: var(--yellow);
 }
 .menu__link--color:hover::after {
     width: 100%;
