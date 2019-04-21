@@ -5,13 +5,14 @@
 :root {
     --accent: #f38181;
     --gccent: #95e1d3;
+    --white: #fff;
     --yellow: rgb(252, 227, 138);
     --col: 80px;
     --gap: 20px;
     --column: calc(var(--col) + var(--gap));
 }
 .container {
-    width: 1920px;
+    width: 100%;
     margin: auto;
 }
 .container__low {
@@ -60,6 +61,9 @@
 }
 .name__title {
     text-align: center;
+}
+.icon__link {
+    background-color: var(--accent);
 }
 .name__title::after {
     content: "";

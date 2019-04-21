@@ -1,29 +1,10 @@
 .container--img {
     position: relative;
-    background-image: url(/m_10/img/igle.png);
+    background-image: url(../../img/igle.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
     z-index: 0;
-}
-.container--imgfon {
-    background-image: -webkit-linear-gradient(
-        90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%
-    );
-    background-image: -ms-linear-gradient(
-        90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%
-    );
-    position: absolute;
-    opacity: 0.7;
-    left: 0px;
-    top: 0px;
-    width: 1920px;
-    height: 1000px;
-    z-index: -1;
 }
 .menu__wrp--nav {
     width: 1200px;
@@ -41,10 +22,12 @@
     margin-bottom: -10px;
     margin-left: 50px;
 }
-.menu__link--color {
-    color: var(--gccent);
+.menu__link--colorfont {
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
-.menu__link--color::after {
+.menu__link--colorfont::after {
     content: "";
     display: block;
     height: 6px;
@@ -54,10 +37,10 @@
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-.menu__link--color:hover {
+.menu__link--colorfont:hover {
     color: var(--yellow);
 }
-.menu__link--color:hover::after {
+.menu__link--colorfont:hover::after {
     width: 100%;
 }
 .text__ground--item {
