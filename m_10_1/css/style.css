@@ -13,6 +13,21 @@
     background: -o-linear-gradient(top, white, black);
     background: linear-gradient(to bottom, white, black);
 }
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -webkit-linear-gradient(top, white, black);
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
 * {
     margin: 0;
     padding: 0;
@@ -24,8 +39,7 @@
     --yellow: rgb(252, 227, 138);
     --col: 80px;
     --gap: 20px;
-    --column: calc(var(--col) + var(--gap));
-}
+    --column: calc(var(--col)+var(--gap));}
 .container {
     width: 100%;
     margin: auto;
@@ -125,14 +139,14 @@
 }
 
 .column__four {
-    width: calc(var(--col) * 4);
+    width: calc(var(--col)*4);
 }
 .icon__wrp {
     width: var(--col);
 }
 
 .page__wrp {
-    width: calc(var(--column) * 3);
+    width: calc(var(--column)*3);
 }
 
 .page__name {
@@ -171,7 +185,7 @@
 }
 
 .column_ten {
-    width: calc(var(--column) * 10);
+    width: calc(var(--column)*10);
 }
 
 .text_spec {
