@@ -206,13 +206,7 @@
     display: -ms-flexbox;
     display: flex;
 }
-.cardIcon__wrp--position {
-    position: absolute;
-    top: 207px;
-    left: 78px;
-    border: none;
-    z-index: 15;
-}
+
 .card:hover .cardIcon__wrp {
     opacity: 1;
 }
@@ -229,18 +223,18 @@
 .icon__btn:hover {
     background-color: #f38181;
 }
-button:hover #facebookone,
-button:hover #twitterone,
-button:hover #instagramone,
-button:hover #pinterestone,
-button:hover #facebooktwo,
-button:hover #twittertwo,
-button:hover #instagramtwo,
-button:hover #pinteresttwo,
-button:hover #facebookthree,
-button:hover #twitterthree,
-button:hover #instagramthree,
-button:hover #pinterestthree {
+.icon__btn:hover #facebookone,
+.icon__btn:hover #twitterone,
+.icon__btn:hover #instagramone,
+.icon__btn:hover #pinterestone,
+.icon__btn:hover #facebooktwo,
+.icon__btn:hover #twittertwo,
+.icon__btn:hover #instagramtwo,
+.icon__btn:hover #pinteresttwo,
+.icon__btn:hover #facebookthree,
+.icon__btn:hover #twitterthree,
+.icon__btn:hover #instagramthree,
+.icon__btn:hover #pinterestthree {
     fill: #fff;
 }
 .card__name {

@@ -204,6 +204,16 @@
     border: none;
     opacity: 0;
 }
+.icon--svg {
+    padding: 15px;
+}
+.cardIcon__wrp--position {
+    position: absolute;
+    top: 207px;
+    left: 78px;
+    border: none;
+    z-index: 15;
+}
 .card__name--font {
     font-family: "Montserrat", sans-serif;
     color: rgb(51, 51, 51);
