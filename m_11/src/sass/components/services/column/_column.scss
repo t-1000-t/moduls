@@ -1,0 +1,15 @@
+.column {
+  &__four {
+    width: 320px;
+  }
+
+  &__ten {
+    width: 1000px;
+  }
+
+  &__ten--text {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 95px;
+  }
+}

@@ -1,0 +1,46 @@
+.icon {
+  &__wrp {
+    width: $col;
+  }
+
+  &__wrp--view {
+    text-align: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  &__btn {
+    width: 55px;
+    height: 55px;
+  }
+
+  &__btn--style {
+    cursor: pointer;
+    background-color: #fce38a;
+    border: none;
+    opacity: 0;
+  }
+
+  &__btn:hover {
+    background-color: $accent;
+  }
+
+  &__btn:hover #twitterone,
+  &__btn:hover #instagramone,
+  &__btn:hover #pinterestone,
+  &__btn:hover #facebookone,
+  &__btn:hover #facebooktwo,
+  &__btn:hover #twittertwo,
+  &__btn:hover #instagramtwo,
+  &__btn:hover #pinteresttwo,
+  &__btn:hover #facebookthree,
+  &__btn:hover #twitterthree,
+  &__btn:hover #instagramthree,
+  &__btn:hover #pinterestthree {
+    fill: #fff;
+  }
+
+  &__svg {
+    padding: 15px;
+  }
+}

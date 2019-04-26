@@ -1,0 +1,29 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  &__name {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  &__name--font {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    margin-left: 50px;
+  }
+
+  &__menu {
+    cursor: pointer;
+    list-style: none;
+  }
+
+  &__icon {
+    display: flex;
+  }
+}
