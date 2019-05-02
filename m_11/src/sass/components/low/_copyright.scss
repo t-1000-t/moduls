@@ -3,7 +3,7 @@
 
   &__text {
     vertical-align: middle;
-    font-family: 'Montserrat', sans-serif;
+    @extend %Montserrat;
     color: #333;
   }
 }

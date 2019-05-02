@@ -1,24 +1,23 @@
 .icon {
   &__wrp {
     width: $col;
-  }
 
-  &__wrp--view {
-    text-align: center;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
+    &--view {
+      text-align: center;
+      flex-shrink: 0;
+    }
   }
 
   &__btn {
     width: 55px;
     height: 55px;
-  }
 
-  &__btn--style {
-    cursor: pointer;
-    background-color: #fce38a;
-    border: none;
-    opacity: 0;
+    &--style {
+      cursor: pointer;
+      background-color: #fce38a;
+      border: none;
+      opacity: 0;
+    }
   }
 
   &__btn:hover {

@@ -1,16 +1,33 @@
 .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 
   &__img:hover {
-    -webkit-transform: translate(-10px, -10px);
-    -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
   }
 
   &__modal {
     position: absolute;
+
+    &--psition {
+      background-image: -webkit-linear-gradient(
+        90deg,
+        rgb(252, 227, 138) 0%,
+        rgb(243, 129, 129) 100%
+      );
+      background-image: -ms-linear-gradient(
+        90deg,
+        rgb(252, 227, 138) 0%,
+        rgb(243, 129, 129) 100%
+      );
+      opacity: 0;
+      top: 0;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 10;
+      width: 100%;
+      height: 470px;
+    }
   }
 
   &__img:hover .card__modal--position {
@@ -18,17 +35,15 @@
   }
 
   &__icon__wrp {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-  }
 
-  &__icon__wrp--position {
-    position: absolute;
-    top: 207px;
-    left: 78px;
-    border: none;
-    z-index: 15;
+    &--position {
+      position: absolute;
+      top: 207px;
+      left: 78px;
+      border: none;
+      z-index: 15;
+    }
   }
 
   &__view {
@@ -41,63 +56,37 @@
 
   &__view {
     position: relative;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     background-color: #95e1d3;
     width: 380px;
     height: 470px;
   }
 
-  &__modal--psition {
-    background-image: -webkit-linear-gradient(
-      90deg,
-      rgb(252, 227, 138) 0%,
-      rgb(243, 129, 129) 100%
-    );
-    background-image: -ms-linear-gradient(
-      90deg,
-      rgb(252, 227, 138) 0%,
-      rgb(243, 129, 129) 100%
-    );
-    opacity: 0;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 10;
-    width: 100%;
-    height: 470px;
-  }
-
   &__name {
     font-size: 14px;
     line-height: 1.2;
+
+    &--font {
+      @extend %Montserrat;
+      color: rgb(51, 51, 51);
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 30px;
+    }
   }
 
   &__prof {
     font-size: 15px;
     line-height: 1.6;
-  }
 
-  &__name--font {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
-  }
-
-  &__prof--font {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(153, 153, 153);
-    font-style: italic;
-    text-align: center;
-    padding-top: 15px;
+    &--font {
+      @extend %Roboto;
+      color: rgb(153, 153, 153);
+      font-style: italic;
+      text-align: center;
+      padding-top: 15px;
+    }
   }
 }
 

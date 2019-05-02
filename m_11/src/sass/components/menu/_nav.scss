@@ -1,9 +1,5 @@
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 
   &__name {
@@ -12,9 +8,9 @@
   }
 
   &__name--font {
-    font-family: 'Montserrat', sans-serif;
+    @extend %Montserrat;
     text-transform: uppercase;
-    margin-bottom: -10px;
+    margin-bottom: -22px;
     margin-left: 50px;
   }
 

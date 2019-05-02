@@ -1,0 +1,17 @@
+%Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+%Kaushan {
+  font-family: 'Kaushan Script', cursive;
+}
+
+%Roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+@mixin Montser700($fontsize) {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $fontsize;
+  text-transform: uppercase;
+}

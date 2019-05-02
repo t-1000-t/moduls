@@ -1,28 +1,26 @@
 .link {
   text-decoration: none;
 
-  &____colorfont {
+  &__colorfont {
     color: $white;
-    font-family: 'Montserrat', sans-serif;
+    @extend %Montserrat;
     font-weight: 600;
-  }
 
-  &__colorfont::after {
-    content: '';
-    display: block;
-    height: 6px;
-    width: 0;
-    border-bottom: 3px solid $yellow;
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-  }
+    &::after {
+      content: '';
+      display: block;
+      height: 6px;
+      width: 0;
+      border-bottom: 3px solid $yellow;
+      transition: all 0.2s linear;
+    }
 
-  &__colorfont:hover {
-    color: $yellow;
-  }
+    &:hover {
+      color: $yellow;
 
-  &____colorfont:hover::after {
-    width: 100%;
+      &::after {
+        width: 100%;
+      }
+    }
   }
 }

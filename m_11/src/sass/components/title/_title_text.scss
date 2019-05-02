@@ -2,27 +2,26 @@
   &__ground {
     font-size: 72px;
     line-height: 1.2;
-  }
 
-  &__ground--item {
-    margin-top: 170px;
-    font-family: "Kaushan Script", cursive;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    &--item {
+      margin-top: 170px;
+      @extend %Kaushan;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
   }
 
   &__big {
     font-size: 150px;
     line-height: 0.933;
-  }
 
-  &__big--item {
-    margin-top: 60px;
-    margin-bottom: 126px;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    &--item {
+      @include Montser700(700);
+      margin-top: 60px;
+      margin-bottom: 126px;
+      color: $white;
+      text-align: center;
+    }
   }
 }
+
