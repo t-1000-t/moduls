@@ -10,35 +10,94 @@ a {
     width: 100%;
     text-align: center;
 }
+/*  */
+.menu__nav {
+  display: inline-block;
+  padding-top: 43px;
+}
+.logo {
+  display: block;
+  padding-left: 60px;
+  padding-top: 38px;
+}
 
-.grid {
+.grid__nav li:nth-child(13) {
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
+
+
+.disk__nav {
+  padding-top: 12px;
+  padding-left: 8px;
+}
+.disk {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid 3px #fff;
+  margin-top: 30px;
+}
+/*  */
+.grid__nav {
     background-image: url(/image/BG_image.jpg);
     height: 920px;
     display: grid;
     grid-template-columns:
-        repeat(7, 1fr) minmax(100px, auto) minmax(100px, auto)
-        minmax(100px, auto) minmax(100px, auto) minmax(auto, 100px);
-    grid-gap: 5px;
+        repeat(6, 1fr) minmax(94px, auto) minmax(99px, auto)
+        minmax(81px, auto) minmax(89px, auto) minmax(55px, auto) minmax(83px, auto);
+    grid-gap: 3px;
     grid-auto-flow: row;
-
-    grid-template-rows: repeat(12, 1fr);
+    /* grid-template-rows: repeat(12, 1fr); */
 }
 .item__nav {
-    display: block;
-    /* background-color: darksalmon; */
-    text-align: left;
-    height: 144px;
+  display: block;
+  background-color: darksalmon;
+  text-align: left;
+  height: 144px;
 }
-.menu__nav {
-    display: inline-block;
-    padding-top: 38px;
+.bg__map {
+background-image: url(/image/map_left.png);
 }
-.logo {
-    display: block;
-    padding-left: 60px;
-    padding-top: 35px;
+.bg__shodem {
+background-image: url(/image/map_right.png);
 }
-.icon__nav {
-    display: block;
-    padding-top: 28px;
+.circ {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  background-color: rgb(67, 185, 126);
 }
+
+/* item style */
+.item31 {
+  margin-top: 109px;
+  margin-left: 67px;
+}
+.item21 {
+  margin-top: 115px;
+  margin-left: 19px;
+}
+
+/* span */
+.item__col--end2 {
+  grid-column-end: span 2;
+}
+.item__row--end2 {
+  grid-row-end: span 2;
+}
+
+/*  */
+.grid__b {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: row;
+    grid-gap: 3px;
+}
+.item__b {
+    background-color: rgb(120, 157, 192);
+    height: 120px;
+}
+
+

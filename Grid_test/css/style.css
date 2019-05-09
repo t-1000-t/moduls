@@ -1,0 +1,45 @@
+.main {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    grid-template-rows: [header] 100px [body] auto;
+    grid-template-columns: [left-gutter] 1fr [sidebar] 4fr [content] 8fr [right-gutter] 1fr;
+
+    background-color: rgb(143, 143, 82);
+}
+
+.header {
+    grid-row: header;
+    grid-column: sidebar / right-gutter;
+
+    background-color: blue;
+}
+
+.sidebar {
+    grid-row: body;
+    grid-column: sidebar;
+
+    background-color: blueviolet;
+}
+
+.content {
+    grid-row: body;
+    grid-column: content;
+    display: grid;
+    grid-template-columns: [left-gutter] 1fr [article] 4fr [info] 2fr [right-gutter] 1fr;
+    grid-column-gap: 2rem;
+
+    background-color: brown;
+}
+
+.article {
+  grid-column: article;
+
+  background-color: chocolate;
+}
+
+.info {
+  grid-column: info;
+
+  background-color: chartreuse;
+}
