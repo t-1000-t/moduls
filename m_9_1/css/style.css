@@ -10,94 +10,161 @@ a {
     width: 100%;
     text-align: center;
 }
-/*  */
-.menu__nav {
-  display: inline-block;
-  padding-top: 43px;
-}
-.logo {
-  display: block;
-  padding-left: 60px;
-  padding-top: 38px;
-}
 
-.grid__nav li:nth-child(13) {
-  grid-column-start: 2;
-  grid-column-end: 9;
-}
-
-
-.disk__nav {
-  padding-top: 12px;
-  padding-left: 8px;
-}
-.disk {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: solid 3px #fff;
-  margin-top: 30px;
-}
-/*  */
-.grid__nav {
-    background-image: url(/image/BG_image.jpg);
-    height: 920px;
-    display: grid;
-    grid-template-columns:
-        repeat(6, 1fr) minmax(94px, auto) minmax(99px, auto)
-        minmax(81px, auto) minmax(89px, auto) minmax(55px, auto) minmax(83px, auto);
-    grid-gap: 3px;
-    grid-auto-flow: row;
-    /* grid-template-rows: repeat(12, 1fr); */
-}
-.item__nav {
-  display: block;
-  background-color: darksalmon;
-  text-align: left;
-  height: 144px;
-}
 .bg__map {
-background-image: url(/image/map_left.png);
+    background-image: url(/image/map_left.png);
 }
 .bg__shodem {
-background-image: url(/image/map_right.png);
-}
-.circ {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-
-  background-color: rgb(67, 185, 126);
-}
-
-/* item style */
-.item31 {
-  margin-top: 109px;
-  margin-left: 67px;
-}
-.item21 {
-  margin-top: 115px;
-  margin-left: 19px;
-}
-
-/* span */
-.item__col--end2 {
-  grid-column-end: span 2;
-}
-.item__row--end2 {
-  grid-row-end: span 2;
+    background-image: url(/image/map_right.png);
 }
 
 /*  */
-.grid__b {
+.navigate {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: row;
-    grid-gap: 3px;
-}
-.item__b {
-    background-color: rgb(120, 157, 192);
-    height: 120px;
+    background-image: url(/image/BG_image.jpg);
+    grid-template-columns: [grid__nav1] 2fr [grid__nav2] 4fr [grid__nav3] minmax(540px, auto);
+    grid-template-rows: 1fr 113px;
+    height: auto;
+    /* grid-gap: 20px; */
 }
 
+.menu__nav {
+    display: inline-block;
+    padding-top: 43px;
+    font-size: 14px;
+}
 
+.logo {
+    display: block;
+    padding-left: 60px;
+    padding-top: 38px;
+}
+
+.disk {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    margin-top: 30px;
+}
+.disk__nav {
+    padding-top: 12px;
+    padding-left: 2px;
+}
+
+/*  Grid NAV1 */
+
+.grid__nav1 {
+    height: auto;
+    display: grid;
+    grid-template-columns: [grid__left] 1fr;
+    grid-template-rows: 144px [grid__leftRow] 1fr;
+    /* grid-gap: 3px; */
+    grid-auto-flow: row;
+}
+.grid__left {
+    display: block;
+    background-color: darksalmon;
+    text-align: left;
+    height: 144px;
+}
+.grid__leftRow {
+    grid-row: 640px;
+
+    background-color: rgb(190, 96, 170);
+}
+
+/* Grid END_NAV1 */
+
+/* Grid NAV2 */
+
+.grid__nav2 {
+    height: auto;
+    display: grid;
+    grid-template-columns: [grid__middle] 2fr;
+    grid-template-rows: 144px [grid__midBody] 1fr;
+    /* grid-gap: 3px; */
+    grid-auto-flow: row;
+}
+.grid__wrp {
+    display: block;
+    height: 144px;
+}
+
+.grid__disk {
+    display: grid;
+    grid-template-columns: [art__middle] 10fr;
+    /* grid-gap: 5px; */
+    grid-auto-flow: row;
+}
+
+.grid__midBody {
+    height: 100px;
+
+    background-color: rgb(55, 55, 228);
+}
+.art__middle {
+    background-color: rgb(83, 168, 111);
+}
+.text__middle {
+    padding-top: 150px;
+}
+.button__middle {
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    outline: none;
+     
+    background: linear-gradient(#fed45c, #e38916) #fed45c;
+    transition: 0.2s;
+}
+.button__middle:hover {
+    background: linear-gradient(#f5ae00, #fed45c) #f5ae00;
+}
+.button__middle:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+/* Grid END_NAV2 */
+
+/* Grid NAV3 */
+
+.grid__nav3 {
+    height: auto;
+    display: grid;
+    grid-template-columns: [grid__right] 1fr;
+    grid-template-rows: 144px [grid__rightRow] 1fr;
+    /* grid-gap: 3px; */
+    grid-auto-flow: row;
+}
+
+.grid__right {
+    display: grid;
+    grid-template-columns:
+        [about] 1fr
+        [products] 1fr
+        [pricing] 1fr [contact] 1fr [news] 1fr
+        [disk] minmax(83px, auto);
+    height: 144px;
+    background-color: rgb(162, 190, 104);
+}
+
+.grid__rightRow {
+    height: 640px;
+
+    background-color: rgb(97, 167, 23);
+}
+
+/* Grid END_NAV3 */
+
+.middle_gr--disk {
+    height: 144px;
+}
+
+.circul {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(67, 185, 126);
+}
