@@ -69,9 +69,18 @@ a {
     height: 144px;
 }
 .grid__leftRow {
-    grid-row: 640px;
+    display: grid;
+    grid-template-rows: [grid__leftRow--top] 1fr [grid__leftRow--bottom] 1fr;
+    /* grid-row: 640px; */
 
-    background-color: rgb(190, 96, 170);
+    /* background-color: rgb(190, 96, 170); */
+}
+
+.grid__leftRow--top {
+     background-color: #fed45c;
+}
+.grid__leftRow--bottom {
+    background-color: cadetblue;
 }
 
 /* Grid END_NAV1 */
